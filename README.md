@@ -40,7 +40,7 @@ The KP781 treadmill is having advanced features that sell for $2,500.
 # Business Problem Walmart
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men? (Assume 50 million customers are male and 50 million are female).
 
-## Dataset
+## Dataset:
 User_ID:	User ID
 Product_ID:	Product ID
 Gender:	Sex of User
@@ -51,3 +51,26 @@ StayInCurrentCityYears:	Number of years stay in current city
 Marital_Status:	Marital Status
 ProductCategory:	Product Category (Masked)
 Purchase:	Purchase Amount
+
+# Business Problem Yulu
+The company wants to know:
+Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
+How well those variables describe the electric cycle demands
+
+## Column Profiling:
+datetime: datetime
+season: season (1: spring, 2: summer, 3: fall, 4: winter)
+holiday: whether day is a holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+workingday: if day is neither weekend nor holiday is 1, otherwise is 0.
+weather:
+1: Clear, Few clouds, partly cloudy, partly cloudy
+2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+temp: temperature in Celsius
+atemp: feeling temperature in Celsius
+humidity: humidity
+windspeed: wind speed
+casual: count of casual users
+registered: count of registered users
+count: count of total rental bikes including both casual and registered
